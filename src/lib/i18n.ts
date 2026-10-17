@@ -1,0 +1,46 @@
+export type Lang = "en" | "fa";
+
+export const copy = {
+  en: {
+    brand: "CHIMERA",
+    tag: "Quantum research desk",
+    command: "Home",
+    quantum: "Lab",
+    finance: "Markets",
+    research: "Research",
+    lattice: "Network",
+    proofs: "Logic",
+    chat: "Chat",
+    live: "Ready",
+    launch: "Run a certified experiment",
+    ask: "CHIMERA",
+    placeholder: "Talk to me — the book, the lab, whatever you're looking at…",
+    langOther: "فارسی",
+    header: "Local simulator · no real hardware",
+    whatTitle: "What this is",
+    whatBody:
+      "A browser research desk: simulate a circuit, certify it with 7 nodes, watch a quantum-tech book. Not a real QPU, not a broker.",
+    howTitle: "What to do first",
+  },
+  fa: {
+    brand: "CHIMERA",
+    tag: "میز پژوهش کوانتومی",
+    command: "خانه",
+    quantum: "آزمایشگاه",
+    finance: "بازار",
+    research: "پژوهش",
+    lattice: "شبکه",
+    proofs: "منطق",
+    chat: "گفتگو",
+    live: "آماده",
+    launch: "اجرای آزمایش گواهی‌شده",
+    ask: "CHIMERA",
+    placeholder: "با من حرف بزن — دفتر، آزمایشگاه، هرچه می‌بینی…",
+    langOther: "English",
+    header: "شبیه‌ساز محلی · بدون سخت‌افزار واقعی",
+    whatTitle: "این چیست",
+    whatBody:
+      "میز پژوهش در مرورگر: مدار را شبیه‌سازی کنید، با ۷ گره گواهی کنید، دفتر فناوری کوانتومی را ببینید. QPU واقعی و کارگزاری نیست.",
+    howTitle: "از کجا شروع کنید",
+  },
+} as const;
