@@ -2,7 +2,7 @@
 
 CHIMERA is a browser-based research control surface for quantum simulation, proof experiments, seven-node consensus, quantitative research, and local technical notes.
 
-**Live:** https://aixaria0.github.io/CHIMERA-DESK/
+**Live:** https://sunaria.si/CHIMERA-DESK/
 
 ## What is inside
 
