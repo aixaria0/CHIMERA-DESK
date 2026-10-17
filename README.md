@@ -1,20 +1,26 @@
 # CHIMERA Desk
 
-CHIMERA is a self-contained browser research desk that combines quantum-circuit simulation,
-proof-oriented experiments, a seven-node consensus lattice, quantitative finance views,
-and an interactive local research companion.
+CHIMERA is a browser-based research control surface for quantum simulation, proof experiments, seven-node consensus, quantitative research, and local technical notes.
 
-## Modules
+**Live:** https://aixaria0.github.io/CHIMERA-DESK/
 
-- **Command** — live system overview and certified experiment launcher.
-- **Quantum** — circuit workspace, probability views, teleportation and qudit experiments.
-- **Finance** — simulated quantum-technology book, tape, risk and Monte Carlo views.
-- **Research** — surface-code, distillation and tensor-network explorations.
-- **Lattice** — seven-node consensus and Byzantine behavior visualization.
-- **Proofs** — type, Hoare-style and logic experiments.
-- **Chat** — deterministic, local desk companion grounded in the current simulation state.
+## What is inside
 
-## Run
+- **Command** — dense mission-control dashboard, live telemetry, certificates, backend health and system events.
+- **Quantum** — circuit workspace, probability views, qudit teleportation, type and Hoare experiments.
+- **Finance** — simulated technology book, live tape, portfolio weights, VaR and Monte Carlo views.
+- **Research** — surface-code, magic-state distillation and tensor-network explorations.
+- **Lattice** — seven-node consensus, quorum flow and Byzantine behavior visualization.
+- **Proofs** — consistency, type-system and logic experiments.
+- **Companion** — deterministic local research notes grounded in the same desk glossary.
+
+## Interface controls
+
+The control center lets you change environment palette, accent color, typography, information density, telemetry rate, visual effects, sidebar density, and individual dashboard modules. `Ctrl/Cmd + K` opens the command palette.
+
+Preferences are stored locally in the browser and do not change the research state.
+
+## Run locally
 
 ```bash
 npm install
@@ -23,11 +29,11 @@ npm run dev
 
 Open `http://localhost:8080`.
 
-## Quality checks
+## Quality gates
 
 ```bash
-npm run build
 npm run lint
+npm run build
 ```
 
 The project is client-side and does not require private API keys.
